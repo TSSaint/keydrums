@@ -1,0 +1,22 @@
+{
+  "name": "keydrums",
+  "version": "1.0.0",
+  "description": "play some drums on your keyboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSSaint/keydrums.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TSSaint/keydrums/issues"
+  },
+  "homepage": "https://github.com/TSSaint/keydrums#readme",
+  "dependencies": {
+    "howler": "^2.0.4"
+  }
+}

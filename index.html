@@ -2,46 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
   <title>keydrums</title>
+  <script type="text/javascript" src="js/script.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
-  <body>
+  <body class="app">
     <header class="nav">
-      <h1>KEYDRUMS</h1>
+      <h1 class="logo">KEYDRUMS</h1>
     </header>
 
       <!-- contains all the sounds   -->
-      <div class="opening">
+      <br>
+      <div class="intro-par">
+        <!-- <h3>MASH DEM BUTNZ</h3> -->
       </div>
 
       </div>
         <div class="sounds">
-          <div data-key="70" class="sound">
-            <span>drum</span>
+          <div data-key="65" class="snd">
+            <span class="inst">Boom</span>
+            <kbd>A</kbd>
           </div>
-          <div data-key="70" class="sound">
-            <span>drum</span>
+          <div data-key="83" class="snd">
+            <span class="inst">Clap</span>
+            <kbd>S</kbd>
           </div>
-          <div data-key="70" class="sound">
-            <span>drum</span>
+          <div data-key="68" class="snd">
+            <span class="inst">Hi-Hat</span>
+            <kbd>D</kbd>
           </div>
-          <div data-key="70" class="sound">
-            <span>drum</span>
+          <div data-key="70" class="snd">
+            <span class="inst">Kick</span>
+            <kbd>F</kbd>
           </div>
-          <div data-key="70" class="sound">
-            <span>drum</span>
+          <div data-key="inst71" class="snd">
+            <span class="inst">Open Hat</span>
+            <kbd>G</kbd>
           </div>
-          <div data-key="70" class="sound">
-            <span>drum</span>
+          <div data-key="72" class="snd">
+            <span class="inst">Ride</span>
+            <kbd>H</kbd>
+          </div>
+          <div data-key="74" class="snd">
+            <span class="inst">Snare</span>
+            <kbd>J</kbd>
+          </div>
+          <div data-key="75" class="snd">
+            <span class="inst">Tink</span>
+            <kbd>K</kbd>
+          </div>
+          <div data-key="76" class="snd">
+            <span class="inst">Tom</span>
+            <kbd>L</kbd>
           </div>
         </div>
 
-      <audio data-key="70" src=""></audio>
+        <audio class="aud" data-key="65" src="sounds/boom.wav"></audio>
+        <audio class="aud" data-key="83" src="sounds/clap.wav"></audio>
+        <audio class="aud" data-key="68" src="sounds/hihat.wav"></audio>
+        <audio class="aud" data-key="70" src="sounds/kick.wav"></audio>
+        <audio class="aud" data-key="71" src="sounds/openhat.wav"></audio>
+        <audio class="aud" data-key="72" src="sounds/ride.wav"></audio>
+        <audio class="aud" data-key="74" src="sounds/snare.wav"></audio>
+        <audio class="aud" data-key="75" src="sounds/tink.wav"></audio>
+        <audio class="aud" data-key="76" src="sounds/tom.wav"></audio>
 
     <footer class="foot">
-      <h1>SMURDYEK</h1>
+      <h1>MADE BY SEBI</h1>
     </footer>
-
-    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
